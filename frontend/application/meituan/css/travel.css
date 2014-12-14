@@ -1,0 +1,66 @@
+/**
+datetime : 20130725
+author  :  gefc
+version : 1.0
+*/
+
+#btn_train,#btn_aircraft,#btn_car,#btn_travel,#btn_Stations,#btn_trainTime,#btn_flyTime{
+    background-image: url(../../wxadmin/images/gallery.png);
+    background-repeat: no-repeat;
+    background-position: -91px -171px;
+    width: 80px;
+    height: 31px;
+    margin: 5px 0px 0px 5px;
+    border: 0px;
+}
+#selectBox{
+
+}
+
+#selectChange{
+    border: 1px solid #a3dcef;
+    border-right: 0px;
+    height: 33px;
+    width: 99px;
+    text-align: center;
+    font-size: 10;
+    margin-right: 0px;
+    margin-top: 10px;
+    float: left;
+}
+#box1{
+    margin-left: 5px;
+    padding: 5px;
+}
+#box1_txt{
+    border: 1px solid #a3dcef;
+    border-left: 0px;
+    margin: 5px 0px 0px 0px;
+    height: 31px;
+    width: 299px;
+}
+#box1_btn, #box2_btn{
+    background-image: url(../../wxadmin/images/gallery.png);
+    background-repeat: repeat-y;
+    background-position: -85px -171px;
+    border: 0px;
+    width: 90px;
+    height: 31px;
+    margin-left: 5px;
+    margin-top: 0px;
+
+}
+
+#box2{
+    margin-left: 5px;
+    padding: 5px;
+    height: 40px;
+}
+
+#box2_start, #box2_end{
+    border: 1px solid #a3dcef;
+    margin: 5px 0px 0px 0px;
+    height: 31px;
+    width: 199px;
+}
+

@@ -1,0 +1,9 @@
+/*shopComment*/
+.comment{background:#fff;border:1px #ccc solid;border-top:none;padding:10px;}
+.comment dl{ padding:10px 0; border-bottom:1px #ccc dashed;}
+.comment dl dt{ float:left; margin-right:10px;}
+.send label{ display:block; padding:3px 0;}
+.send textarea{ width:690px; border:2px #ddd solid; height:100px; padding:5px;}
+.send .button{ background:url(../images/shop.png) 0 -129px no-repeat; width:77px; height:31px; border:none; cursor:pointer;margin-right:5px;}
+.send img{margin:6px 2px 0 0;}
+#comment_score_area img{cursor:pointer;}

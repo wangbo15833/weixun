@@ -1,0 +1,82 @@
+body {
+    font-size: 12px;
+}
+
+ul, li {
+    margin: 0px;
+    padding: 0px;
+    width: 190px;
+    list-style-type: none;
+}
+
+#ttree {
+    margin-left: 3px;
+}
+
+.treechildborder {
+    background-image: url(../img/bg3line.gif);
+    background-repeat: repeat-y;
+    background-position: 0px -10px;
+    overflow: hidden;
+}
+
+.treelist {
+    background-color: #fff;
+    background: url(../img/bg4.gif) -48px -46px no-repeat;
+    padding-left: 18px;
+    line-height: 18px;
+    overflow: hidden;
+}
+
+.treelistend {
+    background-position: -48px -46px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.treesub {
+    cursor: hand;
+    line-height: 18px
+}
+
+.treezhankai {
+    background-position: -16px -90px;
+}
+
+.treenode {
+    background-image: url(../img/node.gif);
+    background-position: 1px 0;
+}
+
+.treelist a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.treediv {
+    height: 18px;
+    line-height: 18px;
+    overflow: hidden;
+    margin-left: 2px;
+    cursor: pointer;
+    padding-left: 16px;
+    background-position: 0px 3px;
+    background-repeat: no-repeat;
+}
+
+.treefile {
+    background-image: url(../img/file.gif);
+}
+
+.treeofolder {
+    margin-left: -30px;
+    padding-left: 31px;
+    background-position: 15px center;
+}
+
+.treecfolder {
+    margin-left: -30px;
+    padding-left: 31px;
+    background-position: 15px center;
+}
+			   

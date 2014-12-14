@@ -1,0 +1,76 @@
+/**
+ *     商品样式
+ * @author gefc
+ * 
+ */
+
+.commodity_css{
+    width:700px;
+    height:auto;
+    margin: 0 auto;
+    border: 0px solid #95BCE2;
+    position:relative;
+    text-align:center;
+    margin-top: 10px;
+}
+
+.commodity_css ul{
+   list-style:none;
+   text-align: left;
+}
+
+.commodity_css li{
+    height:auto;
+    width: 100%;
+    border-bottom: 0px solid #95BCE2;
+    margin: 5px 5px 5px 5px;
+}
+
+.commodity_css li span {
+    width: 24%;
+    float: left;    
+}
+
+.commodity_css li span img{
+    border: 0px;
+    height: 20px !important;
+    height: 20px;
+}
+
+.commodity_css label{
+    width: 100px;
+    margin-left: 0px;
+    padding:0px;
+    margin-right: 10px;
+}
+
+.commodity_css select{
+    width: 150px;
+    text-align : center;border: 1px solid #ababab; 
+}
+
+#picK img{
+    width:80px;
+    height: 80px;
+    border: 1px solid #000000;
+    margin-left:5px;
+    margin-right: 5px;
+}
+
+.setbackground{
+
+    background-color: green;
+}
+
+/**分页*/
+.page{ text-align:center; padding:20px 0;}
+.page a{ padding:3px; height:20px; line-height:20px;padding:0 5px;border: 1px solid #D8DEEA;background-color: #EFEFEF;font-family: Verdana; margin-right:5px;}
+
+/*--- 公共翻页样式 ---*/
+.newinte_seepage{ height:40px; text-align: center; margin:10px 20px; _display:inline; clear:both;}
+.newinte_seepage a{display:inline-block; line-height:20px; padding:0 10px; border:1px solid #C6C6C6; margin-left:5px;  white-space: nowrap; background:#fff;}
+.newinte_seepage a:hover{background:#839BCF; border:1px solid #5C7DC0; color:#fff;}
+.newinte_seepage .inte_nowpage{border:none; border:none; cursor:text; background:none;}
+.newinte_seepage .inte_nowpage:hover{border:none; background:none; color:#3B5998;}
+
+

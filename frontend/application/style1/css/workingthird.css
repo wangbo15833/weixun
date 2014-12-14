@@ -1,0 +1,526 @@
+@charset "utf-8";
+/* CSS Document */
+
+#total {
+    background-image: url(/frontend/application/style1/images/bg.gif);
+    background-repeat: repeat-x;
+    /*网页高度设置*/
+}
+
+#whitebg {
+    width: 1020px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #FFF;
+    min-height: 1225px; /*白色背景部分高度设置与网页高度差值不变*/
+    margin: 0 auto;
+}
+
+#body {
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+}
+
+#body_top {
+    width: 1000px; /*主体顶部*/
+    height: 20px;
+    font-size: 10px;
+    border-bottom: 1px #F07800 solid;
+}
+
+#body_top a {
+    color: #F60;
+}
+
+#body_top a:hover {
+    color: #CF0;
+}
+
+/*活的名称类型及联系方式*/
+#working {
+    width: 1000px;
+    height: 300px;
+    font-size: 14px;
+    color: #999;
+    margin: 10px 20px;
+}
+
+#working_name {
+    font-size: 16px;
+    color: #000;
+    height: 30px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+#people {
+    font-size: 15px;
+    color: #F07800;
+    height: 30px;
+    font-weight: bold;
+}
+
+#working_ph {
+    height: 60px;
+    width: 1000px;
+    margin-top: 15px;
+}
+
+#working_ph_left {
+    float: left;
+    font-size: 15px;
+    height: 50px;
+    width: 75px;
+}
+
+#working_ph_left b {
+    color: #900;
+}
+
+#working_ph_center {
+    height: 50px;
+    width: 45px;
+    float: left;
+    margin-left: 10px;
+}
+
+#working_ph_right {
+    float: right;
+    height: 50px;
+    width: 170px;
+    margin-right: 670px;
+    line-height: 40px;
+    overflow: auto;
+    font-size: 16px;
+    color: #900;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+
+#working_time {
+    margin: 10px 0px;
+    height: 15px;
+    width: 1000px;
+}
+
+#time_left {
+    float: left;
+    width: 240px;
+}
+
+#time_center {
+    float: left;
+    width: 240px;
+}
+
+#time_right {
+    float: right;
+    width: 240px;
+    margin-right: 260px;
+}
+
+#working_txt p {
+    margin: 10px 0px;
+}
+
+#step {
+    height: 40px;
+    width: 800px;
+}
+
+#step li a {
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFF;
+    height: 40px;
+    line-height: 40px;
+}
+
+#step li {
+    float: left;
+    text-align: center;
+}
+
+.bg {
+    background-image: url(/frontend/application/style1/images/thirdworking.gif);
+    border: none;
+    height: 40px;
+    width: 125px;
+    margin: 0 auto;
+}
+
+.bg1 {
+    background-image: url(/frontend/application/style1/images/thirdworking2.gif);
+    border: none;
+    height: 40px;
+    width: 125px;
+    margin: 0 auto;
+}
+
+.j {
+    width: 40px;
+    height: 40px;
+    background-image: url(/frontend/application/style1/images/thirdworking1.gif);
+    border: none;
+}
+
+#line1px {
+    hight: 2px;
+    border-bottom: 1px #CCC solid;
+}
+
+#body_left {
+    float: left; /*主体左侧*/
+    width: 700px;
+    margin-top: 10px;
+}
+
+#map {
+    width: 700px; /*商家地理位置信息*/
+    height: 370px;
+    margin-top: 10px;
+}
+
+#map_title {
+    font-size: 18px;
+    color: #FFF;
+    background: #F07800;
+    height: 40px;
+    width: 200px;
+    line-height: 40px;
+    overflow: auto;
+    font-weight: bold;
+    text-align: center;
+}
+
+#line2px {
+    height: 2px;
+    width: 700px;
+    background-color: #F07800;
+}
+
+#map_body {
+    width: 700px;
+    height: 300px;
+}
+
+#map_body_left {
+    width: 350px;
+    float: left;
+    height: 300px;
+}
+
+#map h2 {
+    font-weight: bold;
+    width: 350px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+#table {
+    height: 160px;
+    width: 310px;
+    margin: 0 auto;
+    border: 1px #CCC solid;
+}
+
+#address {
+    text-align: center;
+    font-size: 10px;
+    height: 50px;
+    line-height: 50px;
+    overflow: auto;
+    color: #000;
+    border-bottom: 1px #CCC solid;
+}
+
+#address b {
+    color: #000;
+}
+
+#here {
+    height: 22px;
+    width: 310px;
+    font-size: 9px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    line-height: 20px;
+    overflow: auto;
+}
+
+#here_left {
+    float: left;
+    height: 20px;
+    width: 102px;
+}
+
+#here_center {
+    float: left;
+    width: 103px;
+    height: 20px;
+    border-bottom: 1px #CCC solid;
+    border-left: 1px #CCC solid;
+}
+
+#here_right {
+    float: right;
+    width: 103px;
+    height: 20px;
+    border-bottom: 1px #CCC solid;
+    border-left: 1px #CCC solid;
+}
+
+#ser {
+    text-align: center;
+    height: 89px;
+}
+
+#ser_left {
+    height: 30px;
+    width: 140px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#ser_right {
+    float: right;
+    width: 130px;
+    height: 30px;
+    margin-top: 30px;
+}
+
+#ser_right img {
+    margin: 0px 5px;
+}
+
+#map_body_right {
+    float: right;
+    width: 330px;
+    height: 300px;
+
+}
+
+#map_body_right img {
+    width: 320px;
+    height: 280px;
+    margin-top: 10px;
+}
+
+/*地理位置部分结束*/
+
+#others {
+    width: 700px; /*商家其它商品信息*/
+    height: 300px;
+}
+
+#other_title {
+    width: 700px;
+    height: 40px;
+}
+
+#others_title_left {
+    float: left;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    overflow: auto;
+    text-align: center;
+    font-size: 18px;
+    color: #FFF;
+    font-weight: bold;
+    background: #F07800;
+}
+
+#others_title_right {
+    float: right;
+    font-size: 14px;
+    color: #000;
+    margin-right: 10px;
+}
+
+#others_title_right ul {
+    list-style: none;
+}
+
+#others_title_right li {
+    width: 60px;
+    float: right;
+    margin-top: 10px;
+}
+
+#others_mixtitle {
+    width: 700px;
+    height: 210px;
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px #CCC solid;
+    margin-top: 5px;
+}
+
+#others_mixtitle_left {
+    float: left;
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+    overflow: auto;
+    margin-left: 20px;
+}
+
+#others_mixtitle_right {
+    float: right;
+    margin-right: 10px;
+    width: 370px;
+    height: 30px;
+}
+
+#others_mixtitle_right ul {
+    list-style: none;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 30px;
+    overflow: auto;
+}
+
+#others_mixtitle_right li {
+    width: 60px;
+    float: right;
+}
+
+#introduce_title {
+    width: 150px;
+    height: 40px;
+    background: #F07800;
+    font-size: 18px;
+    color: #FFF;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+    overflow: auto;
+}
+
+#introduce_name {
+    font-size: 16px;
+    color: #F07800;
+    margin: 20px 30px;
+    font-weight: bold;
+}
+
+#introduce_txt {
+    font-size: 12px;
+    width: 680px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+#body_right {
+    float: right; /*主体右侧*/
+    width: 295px;
+}
+
+#phone {
+    height: 81px;
+    border: 1px #CCC solid;
+    width: 290px;
+    margin-top: 20px;
+}
+
+#phone_left {
+    float: left;
+    width: 104px;
+    height: 78px;
+}
+
+#phone_right_up {
+    float: right;
+    width: 180px;
+    height: 36px;
+
+}
+
+#phone_right_down {
+    float: right;
+    width: 150px;
+    height: 36px;
+    line-height: 34px;
+    overflow: auto;
+    background-image: url(/frontend/application/style1/images/phone_img_bg.gif);
+    background-repeat: no-repeat;
+}
+
+#phone_right_down a {
+    color: #FFF;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+#enjoy {
+    height: 500px;
+    width: 295px;
+    border: 1px #CCC solid;
+    margin-top: 5px;
+}
+
+#txt {
+    font-size: 14px;
+    font-weight: bold;
+    background: #E0E0E0;
+    height: 30px;
+    color: #000;
+    text-align: center;
+    line-height: 30px;
+    overflow: auto;
+    border-bottom: 1px #CCC solid;
+}
+
+#enjoy_body_left {
+    float: left;
+    height: 83px;
+    width: 100px;
+    text-align: center;
+    margin-top: 7px;
+}
+
+#enjoy_body_left img {
+    height: 80px;
+    width: 80px;
+}
+
+#enjoy_body_right {
+    float: right;
+    width: 180px;
+    height: 90px;
+    text-align: left;
+}
+
+#enjoy_body_right p {
+    height: 50px;
+    margin: 10px 5px;;
+    padding: 0px;
+    width: 170px;
+    color: #333;
+    font-size: 12px;
+}
+
+#enjoy_body_right a {
+    height: 20px;
+    width: 170px;
+    float: right;
+    text-align: right;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    font-size: 14px;
+    color: #F00;
+}
+
+#enjoy_body_right a:hover {
+    color: #9F0;
+}
+				 			

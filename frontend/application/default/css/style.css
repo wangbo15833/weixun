@@ -1,0 +1,150 @@
+/*---------- base ---------*/
+body,h1,h2,h3,h4,h5,h6,hr,p,dl,dt,dd,ul,ol,li,pre,form,legend,button,input,textarea,th,td{
+    margin:0;padding:0;
+}
+body,button,input,select,textarea{
+    font:12px/24px tahoma,\5b8b\4f53;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size:14px;
+}
+form{
+    display:inline;
+}
+ul,ol{
+    list-style:none;
+}
+i,em{
+    font-style:normal;
+}
+a{
+    text-decoration:none;
+    color:#000;
+}
+a:hover{
+    text-decoration:underline;
+    color:#D60002;
+}
+a:hover img{
+    opacity:0.80;filter:alpha(opacity=80);
+}
+img{
+    vertical-align:top;
+    border:0;
+    -ms-interpolation-mode:bicubic;
+}
+button,input,select,textarea{
+    font-size:100%;
+}
+table{
+    border-collapse:collapse;
+    border-spacing:0;
+}
+input,button,select,textarea{
+    outline:none;
+}
+textarea{
+    resize:none;
+}
+
+.clearfix{
+    zoom:1;
+    overflow:hidden;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+/*public*/
+.l{ float:left;}
+.r{ float:right;}
+.none {display:none;}
+.tc{ text-align:center;}
+.f12{ font-size:12px;}
+.f14{ font-size:14px;}
+.fb{ font-weight:bold;}
+.border{ border:1px #ddd solid; background:#fff;}
+.lh18{ line-height:18px;}
+.lh20{ line-height:20px;}
+.grey{ color:#666;}
+.greyA{ color:#b4b4b4;}
+.greyBg{ background:#f5f5f5;}
+.modLink{color:#dd0000; padding:0 10px; white-space:nowrap;}
+.white{ color:#fff;}
+.white:hover{ color:#fff;}
+.orange{ color:#f15600;}
+.red{ color:#D60002;}
+/*.blue{ color:#369;}*/
+.greyBg{ background:#f7f7f7;}
+.listBorder{ border:1px #ddd solid; border-top:2px #e77021 solid;}
+.borderTop{ border-top:1px #ddd solid;} .borderLeft{border-left:1px #ddd solid;} .borderRight{border-right:1px #ddd solid;} .borderBottom{border-bottom:1px #ddd dashed;}
+.w980{ width:980px; margin:0 auto;}
+.w720{ width:720px;}
+.w740{width:730px;}
+.w250{ width:250px;}
+.w460{ width:460px;}
+.w230{width:240px;}
+.mt10{ margin-top:10px;} .mr10{ margin-right:10px;} .mb10{ margin-bottom:10px;} .ml10{ margin-left:10px;}  .mt5{ margin-top:5px;} .mt8{ margin-top:8px;}
+.p10{ padding:10px;} .pt10{ padding-top:10px;} .pr10{ padding-right:10px;} .pb10{ padding-bottom:10px;} .pl10{ padding-left:10px;} .p_x10{ padding:0 10px;} .p_y10{ padding:10px 0;} .p7{ padding:7px;} .p_y5{ padding:5px 0;} .p5{ padding:5px;}
+.line{ border-bottom:1px #ccc dashed; margin:10px 0;}
+.bLine{ border-bottom:1px #ccc dashed;}
+.center{ text-align:center;}
+.bold{ font-weight:bold;}
+.weiruan{ font-family:"微软雅黑";}
+.relative{ position:relative;}
+.hot{ background:url(../images/hot.gif) no-repeat; width:21px; height:12px; display:block; position:absolute; top:0;}
+.imgText dt{ float:left; margin-right:10px;}
+.img img{ padding:3px; border:1px #ccc solid; background:#fff;}
+.img:hover img{ border:1px #ff5900 solid;}
+.nav,.nav .this,.find li a,.sale,.shopBut,.recommendBut,.price,.search{ background:url(../images/img.png) no-repeat;}
+.header,.title,.topTitle,.shopRtitle,.search .button{background:url(../images/bg.jpg) repeat-x;}
+.eat,.play,.tui,.video{ background:url(../images/icon.png) no-repeat;}
+
+/*allHeader*/
+.allHeader{ background:url(../images/headerBg.jpg) repeat-x; height:165px; overflow:hidden;min-width: 980px;}
+.allHeaderTop{ height:31px;line-height:31px;}
+.allHeaderTop .r a{ margin-left:10px;}
+.headerCon{ background: url(../images/logoBg.jpg) left no-repeat; height:134px;}
+.login{color:#fff; text-align:right;width:360px;padding:30px 0 39px 0;height:34px;line-height:34px;}
+.login a{ color:#fff;}
+.login a:hover{ text-decoration:none; color:#fff694;}
+.login .loginA{ color:#e24b00;background:url(../images/loginA.png) no-repeat;width:78px;height:34px;line-height:31px;display:block;float:right;text-align:center;margin-left:5px;}
+.login .loginA:hover{color:#000;}
+.menu{ height:33px; line-height:33px;}
+.menu li{ float:left; margin-right:5px; background:url(../images/nav.jpg) no-repeat; display:inline;width:93px; height:33px; text-align:center;}
+.menu li a{ color:#fff;display:block;}
+.menu li a:hover{background:#fff;color:#e75208;}
+.menu .this{ background:#fff;}
+.menu .this a{ color:#e75208;}
+
+.weather{float:left;margin:30px 0 0 320px;overflow:hidden;height:27px;display:inline;}
+
+.haka{background:url(../images/haka_logo.jpg) left no-repeat; padding-left:20px;color:#ff0000;}
+
+
+
+/*title*/
+.title{ background-position:0 -31px; height:32px; line-height:30px; padding:0 10px;font-size:12px;}
+
+/*imgList*/
+.imgList li{ float:left; margin:10px 0 0 10px;}
+/*textList*/
+.textList{ padding:3px 10px;}
+.textList li{background:url(../images/dot.gif) left no-repeat; padding-left:10px;}
+
+
+/*search*/
+.search{ background-position:0 -139px;height:31px; overflow:hidden;}
+.search label{ float:left;}
+.search .text{ width:170px; border:1px #ccc solid; border-right:none; background:none; height:29px; line-height:29px; padding:0 10px 0 25px; color:#333;}
+.search .select{ width:100px; border:1px #ccc solid;height:29px; line-height:29px; display:block; background:#f6f6f6;color:#333;}
+.search .opt{ height:29px; line-height:29px;}
+.search .button{ background-position:0 -63px;width:80px; height:31px; line-height:31px; text-align:center; border:none; color:#fff; font-family:"Microsoft YaHei","微软雅黑"; font-size:14px; font-weight:bold; margin-left:4px; cursor:pointer;}
+
+/*hotSearch*/
+.hotSearch{ line-height:31px;}
+.hotSearch a{ margin-right:8px; color:#666;}

@@ -1,0 +1,140 @@
+
+body {
+  min-width:740px;
+  height: auto;
+  font-size: 12px;
+  line-height: 1.5;
+  font-family:"黑体";
+  text-align:center;
+  padding:0px; margin:0px;
+  min-height:100%;
+  background-color:#FFFFFF;
+  background: url('../images/topbg.gif');
+}
+
+#main{
+     width:100%;
+     margin:0px;
+     border: 0px solid;
+     color: #005702;
+     padding:0px;
+     min-height:600px;
+ }
+
+#main_left{
+
+    width: 15%;
+    float:left;
+    text-align: center;
+    min-height:100%;
+	height:auto;
+   /* * */border-top: 1px solid ;
+     position:relative;
+
+}
+
+#main_right{
+
+    width: 85%;
+    text-align: center;
+	float:right;
+	min-height:640px;
+    height:auto !important;
+    height: 640px;
+    margin: 0px;
+    padding: 0;
+	background-color:#FFFFFF;
+}
+.clear{
+clear:both;
+}
+.main_content{
+    position:absolute;
+    left:10%; 
+    text-align: center;
+    width:800px;
+    margin: 0;
+}
+
+.main_content h1 {
+    font-size: 18px;  
+}
+
+#ul_title{
+    color: black;
+    font-size: 15px;
+}
+
+#main_line{
+    
+    width: 1px;
+    
+    height: 100%;
+    border: 1px solid;
+}
+
+#ul_shops {
+    
+    width : 700px;
+    text-align: center;
+    position: absolute; 
+    list-style-type:none;
+}
+#ul_shops li{
+    height:30px;
+    width: 100%;
+    border-bottom: 1px solid #95BCE2;
+    margin-left: 0;
+}
+
+#ul_shops span{
+    width:24%;
+    float: left;
+}
+
+a:link { font-size: 10pt; color: #000000; text-decoration: none;  }
+a:visited{ font-size: 10pt; color: #000000; text-decoration: none;}
+a:hover {color: red;}
+
+h1 { color:#171B16; font-size:130%; font-weight:bold; }
+h2 { color:#171B16; font-size:115%; font-weight:bold; }
+h3 { color:#171B16; font-size:100%; font-weight:bold;}
+
+input { border: 1px solid #ababab; }
+
+hr {border:1px dashed #86BCD4; height: 1px;}
+
+#menu_left{text-align: center; }
+/******************首页及通用样式 end***************************/
+/**********修改用户密码start********/
+#modify_pwd_table{ border : 0px solid #95BCE2; padding:0; text-align: left; height:auto; width: 800px;}
+
+.addGoods{
+    width:800px;
+}
+#modify_pwd_table input{
+
+}
+/**********修改用户密码end********/
+
+.shops_ul{
+    border: 1px solid #95BCE2;
+    padding:0; width: 800px; height:auto;
+   list-style: none;
+}
+
+.shops_ul li{
+    margin: 5px 0px 0px 0px;
+}
+.shops_ul li label{
+    margin: 0px 10px 0px -50px;
+    
+}
+
+.Hide{
+    display: none;
+}
+
+.odd{background-color:#FFCCFF;}
+.even{ background-color:#CCFFFF;}
+.highlight{background-color:#00FF00;}

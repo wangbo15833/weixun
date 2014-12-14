@@ -1,0 +1,28 @@
+th{
+	background : #0066ff;
+	color : #ffffff;
+	line-height: 20px;
+	height: 30px;
+}
+
+td{
+	padding: 6px 11px;
+	border-bottom : 1px solid #95bce2;
+	vertical-align: top;
+	text-align : center;
+	
+}
+
+td * {
+	padding : 6px 11px;
+	
+}
+
+tr.alt td {
+	background : #ecf6fc;
+	
+}
+
+tr.over td {
+	background : #bcd4ec;
+}

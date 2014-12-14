@@ -1,0 +1,581 @@
+.share-group li,
+.link-fn,
+.gallery-item .frame,
+.gallery-item .frame-inner,
+.gallery-item .frame a,
+.gallery-item .label,
+.page-main-title .btn-upload,
+.page-main-title .btn-upload: hover,
+.gallery-info .device,.picture-list li .device,
+.gallery-info .device-txt span,
+.page-gallery .link-list, .page-gallery .top-share,
+.upload-ctrl .loading,
+.aside-right .gallery-item .frame a,
+.aside-personal .btn-upload {
+    background-image: url(../../wxadmin/images/gallery.png);
+    background-repeat: no-repeat;
+}
+.set-list .frame-inner a span,
+.upload-list .set-photo-cover em,
+.digg-wrapper .digg-btn,
+.digg-wrapper .digg-count,
+.digg-wrapper .digg-count em,.digg-wrapper .digg-btn: hover,
+.trans-nav .crumb .icon-arow,.trans-nav .btn-upload,.photo-nav li dl dt a,.photo-nav li dl dt a: hover,.photo-nav li dl .cur,.survery-entry .close a,.empty-upload .upload-one {
+    background-image: url(../../wxadmin/images/gallery_b.png);
+    background-repeat: no-repeat;
+}
+/* 图片修改面包屑和加左边导航*/
+.trans-nav {
+    width: 925px;
+    margin: 0 auto;
+    zoom: 1;
+    z-index: 100;
+}
+.trans-nav .btn-upload {
+    background-image: url(../../wxadmin/images/gallery_b.png);
+    background-repeat: no-repeat;
+    float: left;
+    margin: 0 0 0 10px;
+    display: inline;
+    width: 100px;
+    height: 29px;
+    background-position: -200px -380px;
+    text-indent: -9999em;
+    overflow: hidden;
+}
+.trans-nav .crumb {
+    float: left;
+    height: 28px;
+    width: 725px;
+    position: relative;
+    line-height: 28px;
+    padding: 0 10px;
+    color: #666;
+    background: url(../../wxadmin/images/pic_crumbg.png) repeat-x 0 0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e3e3e3 #e3e3e3 #c0c0c0;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.trans-nav .crumb a {
+    float: left;
+    color: #666;
+}
+.trans-nav .crumb a: hover {
+    color: #666;
+    background: none;
+    text-decoration: underline;
+}
+.trans-nav .crumb ul {
+    float: left;
+}
+.trans-nav .crumb li {
+    float: left;
+    height: 28px;
+    margin-right: 10px;
+    position: relative;
+}
+.trans-nav .crumb li strong {
+    float: left;
+    color: #666;
+    font-weight: normal;
+}
+.trans-nav .crumb li em {
+    float: left;
+    margin-left: 3px;
+    display: inline;
+    color: #d8d8d8;
+}
+.trans-nav .crumb .icon-arow {
+    background-image: url(../../wxadmin/images/gallery_b.png);
+    background-repeat: no-repeat;
+    float: left;
+    margin: 0 0 0 10px;
+    display: inline;
+    width: 9px;
+    height: 28px;
+    background-position: -20px -380px;
+}
+
+
+.photo-nav {
+    clear: both;
+    width: 110px;
+    float: left;
+    padding-top: 15px;
+    z-index: 1;
+    margin-left: 10px;
+}
+.photo-nav li {
+    margin-bottom: 10px;
+    zoom: 1;
+    position: relative;
+    z-index: 99;
+}
+.photo-nav li .roundbg {
+    color: #fff;
+    width: 100px;
+    height: 28px;
+    position: relative;
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
+    overflow: hidden;
+    zoom: 1;
+    background-color: #ff9900;
+    line-height: 26px;
+    padding-left: 10px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.photo-nav .cur .roundbg,.photo-nav .cur .roundbg: hover {
+    background-color: #ff9900;
+}
+.photo-nav li .roundbg: hover {
+    background-color: #999;
+}
+.photo-nav li.cur a {
+    font-weight: bold;
+}
+.photo-nav li .roundbg .nav-t,.photo-nav li dt .nav-t {
+    position: absolute;
+    right: 10px;
+    top: 0px;
+}
+.photo-nav li dl a {
+    display: block;
+    width: 100px;
+    height: 28px;
+    padding-left: 10px;
+    line-height: 28px;
+    color: #00655d;
+    background-color: #e7e7e7;
+}
+.photo-nav li dl dt a {
+    background-position: -440px -380px;
+    position: relative;
+    zoom: 1;
+}
+.photo-nav li dl dt a: hover {
+    background-position: -320px -380px;
+    color: #fff;
+}
+.photo-nav li.cur dt a,.photo-nav li.cur dt a: hover {
+    background-position: -560px -380px;
+    color: #fff;
+}
+.photo-nav li.cur dd a {
+    font-weight: normal;
+}
+.photo-nav li dl dd {
+    border: 1px solid #eaeaea;
+    border-top: none;
+}
+.photo-nav li dl dd a {
+    width: 98px;
+    color: #555;
+    background-color: #f8f8f8;
+}
+.photo-nav li dl dd a: hover {
+    background-color: #ffedd3;
+    color: #000;
+}
+.photo-nav li.cur .cur a {
+    background-color: #ffedd3;
+    font-weight: bold;
+}
+.photo-nav .phto-numb,.photo-nav a: hover .phto-numb,.photo-nav li.cur .cur a .phto-numb {
+    margin-left: 3px;
+    font-size: 11px;
+    color: #999;
+}
+
+.picture-list ul {
+    float: left;
+    width: 700px;
+    margin-left: 10px;
+    margin-top:10px ;
+    _display: inline;
+}
+.picture-list li {
+    border: 1px solid #e4e4e4;
+    margin-bottom: 15px;
+    margin-left:5px;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.1);
+    float: left;
+}
+.picture-list li: hover {
+    border-color: #ccc;
+    background-color: #f9f9f9
+}
+.picture-list li .img {
+    text-align: center;
+    padding: 15px 14px;
+    overflow: hidden;
+    zoom: 1;
+    font-size: 0;
+}
+.picture-list li .img .hook {
+    display: inline-block;
+    width: 0;
+    height: 100%;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    vertical-align: middle;
+}
+.picture-list li .img img {
+    vertical-align: middle;
+    border: 0;
+    height: 160px;
+    width: 198px;
+}
+.picture-list li .price {
+    font-family: Helvetica,arial,sans-serif;
+    margin: 3px 0 0 10px;
+    float: left;
+}
+.picture-list li .picture-info {
+    background-color: #f9f9f9;
+    padding: 10px 15px;
+    overflow: hidden;
+    zoom: 1;
+    width: 195px;
+}
+.picture-list li .item-rank-rst {
+    float: right;
+    margin: 6px 0 0 10px;
+}
+.picture-list li .name {
+    color: #666;
+    overflow: hidden;
+    zoom: 1;
+}
+.picture-list li .name h3 {
+    font-size: 14px;
+    font-weight: normal;
+    float: left;
+}
+.picture-list li .name a {
+    color: #666;
+}
+.picture-list li .name a: hover {
+    color: #6666cc;
+}
+.picture-list li a {
+    color: #999;
+}
+.picture-list li a: hover {
+    color: #6666CC;
+}
+.picture-list li .info {
+    color: #999;
+    line-height: 25px;
+    padding-top: 5px;
+    position: relative;
+    overflow: hidden;
+    zoom: 1;
+    height: 25px;
+}
+.picture-list li .sep {
+    color: #ccc;
+    padding: 0 5px;
+}
+.picture-list li .digg-box {
+    background-color: #F9F9F9;
+    width: auto;
+    position: absolute;
+    right: 0;
+    zoom: 1;
+    overflow: hidden;
+    top: 5px;
+    padding-left: 10px;
+    line-height: 28px;
+    _line-height: 25px;
+}
+.picture-list li .report {
+    float: left;
+}
+.picture-list li .digg-wrapper-s {
+    margin-top: 5px;
+    margin-top: 3px;
+}
+.picture-list li .digg-wrapper-s .digg-btn {
+    width: 17px;
+    text-indent: 0;
+    line-height: 18px;
+    height: 20px;
+    padding-top: 2px;
+    _padding-top: 0;
+    margin-right: 0;
+    margin-left: 8px;
+    _margin-left: 5px;
+}
+.picture-list li .digg-wrapper-s .already {
+    background-position: -635px -259px;
+    color: #fff;
+}
+.picture-list li .digg-wrapper-s .already: hover {
+    background-position: -675px -259px;
+}
+.picture-list li .device {
+    margin-left: 6px;
+    top: 7px;
+}
+
+/*---------------------------------*/
+
+.upload_list: after,.upload_list li: after,.upload_photo: after,.photo_describe .describe: after,.comment-rating .title: after {
+    content: "\10";
+    height: 0;
+    visibility: hidden;
+    display: block;
+    clear: both
+}
+.upload_list,.upload_list li,.upload_photo,.photo_describe .describe,.comment-rating .title {
+    zoom: 1;
+}
+
+/* 添加图片列表*/
+.upload_photo {
+    margin: 20px 20px 20px 20px;
+    position: relative;
+    min-height: 460px;
+    _height: 460px;
+}
+.upload-tit {
+    overflow: hidden;
+    zoom: 1;
+    padding: 20px 0 30px;
+}
+.upload-tit .logo a {
+    width: 110px;
+    height: 37px;
+    float: left;
+}
+.upload-tit .logo a: hover {
+    background: none;
+}
+.upload-tit .tit {
+    padding: 10px 0 0 20px;
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+    font-size: 16px;
+    float: left;
+}
+.upload_photo .op_text {
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+
+.upload_list li {
+    min-width: 500px;
+    min-height: 200px;
+    border: 1px solid #eee;
+    _border: 0;
+    background-color: #f4f4f4;
+    padding: 20px 27px 5px 160px;
+    margin-bottom: 10px;
+    position: relative;
+    *float: left;
+    *width: 521px;
+}
+.upload_list li .pic {
+    float: left;
+    margin-left: -130px;
+    display: inline;
+}
+.upload_list li strong {
+    font-weight: normal;
+    width: 48px;
+    text-align: right;
+    position: absolute;
+    left: 0;
+    top: 3px;
+    top: 5px;
+}
+.upload_list li .txt-special strong {
+    line-height: 22px;
+    _line-height: 15px;
+}
+.upload_list .pic img {
+    width: 120px;
+    height: 88px;
+    margin-bottom: 15px;
+}
+.upload_list .list {
+    position: relative;
+    zoom: 1;
+    width: 518px;
+}
+.upload_list .txt {
+    padding: 0 0 10px 50px;
+    position: relative;
+    /* overflow: hidden;
+    zoom: 1;*/
+    float: left;
+    width: 468px;
+}
+.upload_list .hint {
+    color: #666;
+}
+.upload_list .txt-special .name {
+    margin-top: 1px;
+}
+/*.upload_list .txt-special .name_t {
+	margin-top: 0;
+}*/
+.upload_list .sort {
+    padding-right: 10px;
+    *padding-right: 5px;
+    position: relative;
+    top: 4px;
+    _margin-left: -4px;
+}
+.upload_list .sort input {
+    vertical-align: -2px;
+    margin-right: 7px;
+    margin: -2px 2px 0 0\9;
+    _margin: 0 2px 0 0;
+}
+.upload_list .name {
+    margin-bottom: -5px;
+    overflow: hidden;
+}
+.upload_list .cur {
+    /* border: 1px solid #e7e7e7;
+    background: #fff;
+    padding: 6px;
+    width: 482px;
+    *width: 480px;*/
+    height: 65px;
+}
+.upload_list .name a.c_name {
+    float: left;
+    white-space: nowrap;
+    padding: 4px 6px;
+    border: 1px solid #d4dcec;
+    margin: 0 2px 2px 0;
+    color: #333333;
+    background: #f0f5fc;
+    cursor: pointer;
+}
+.upload_list .cur a.c_name {
+    margin: 0 2px 2px 0;
+}
+.upload_list .name a.c_name_dot {
+    *vertical-align: -2px;
+    _vertical-align: 0;
+    font-weight: bold;
+}
+.upload_list .name a.c_name: hover {
+    background: #f93;
+    border-color: #f27e44;
+    color: #fff;
+}
+.upload_list .rating-wrap {
+    vertical-align: middle;
+    display: inline-block;
+    *dispay: inline;
+    overflow: hidden;
+    zoom: 1;
+    top: 0;
+}
+.upload_list .price {
+    position: absolute;
+    top: 0;
+    left: 275px;
+}
+.upload_list .input_price {
+    border: 1px solid #cccccc;
+    width: 30px;
+    padding: 0 5px 0 20px;
+    line-height: 24px;
+    height: 24px;
+    background-position: -286px 8px;
+    background-color: #fff;
+    vertical-align: middle
+}
+.rating-wrap li {
+    border: 0;
+    padding: 0;
+    background-color: #fff;
+    margin-bottom: 0;
+    position: static;
+}
+.upload_list .close {
+    background-position: -242px 0;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: inline-block;
+    *display: inline;
+    overflow: hidden;
+    zoom: 1;
+    text-indent: -9999px;
+}
+.upload_list .focus {
+    height: auto;
+    color: #111;
+    float: none;
+}
+.upload_list a.close: hover {
+    background-position: -198px 0;
+}
+
+.add_tips {
+    padding: 25px 0 0 30px;
+    font-size: 14px;
+    line-height: 30px;
+}
+.add_tips span {
+    margin-right: 20px;
+    font-family: "宋体" ;
+    font-size: 12px;
+    color: #999;
+}
+
+.photo_end .btn_save,.photo_end .btn_cancel,.btn_disabled,.btn_cancel_disab {
+    background: url(../../wxadmin/images/c-upload-photo-t.png) no-repeat;
+    background-position: -231px -25px;
+    margin-left: 10px;
+    vertical-align: middle;
+    width: 69px;
+    height: 39px;
+    text-indent: -9999px;
+    overflow: hidden;
+    zoom: 1;
+    display: inline-block;
+    *display: inline;
+}
+.btn_cancel_disab{
+    background-position: -231px -66px;
+}
+
+.photo_end .btn_disabled,.photo_end a.btn_disabled: hover {
+    background: url(../../wxadmin/images/c-upload-photo-t.png) no-repeat;
+    background-position: 0 -256px;
+    cursor: default;
+}
+
+.btn_confirm{
+    background: url(../../wxadmin/images/c-upload-photo-t.png) no-repeat;
+    background-position: -163px -22px;
+    border: 0 none;
+    cursor: pointer;
+
+    height: 28px;
+    width: 42px;
+}
+
+.Hide {
+    display: none;
+}
+
+

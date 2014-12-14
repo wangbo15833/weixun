@@ -1,0 +1,269 @@
+@charset "utf-8";
+/* CSS Document */
+
+#total {
+    background-image: url(../img/bg.gif);
+    height: 1320px; /*网页高度设置*/
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#whitebg {
+    width: 1020px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #FFF;
+    height: 1025px; /*白色背景部分高度设置与网页高度差值不变*/
+    margin: 0 auto;
+}
+
+#space20 {
+    height: 20px;
+    width: 1000px;
+}
+
+#herf {
+    width: 1000px;
+    height: 20px;
+    line-height: 20px;
+    overflow: auto;
+    font-size: 10px;
+    margin: 0 auto;
+    color: #FF8000;
+
+}
+
+#herf a {
+    color: #FF8000;
+    margin: 5px 10px;
+}
+
+#herf a:hover {
+    color: #9F0;
+}
+
+#i_personal {
+    width: 100px;
+    height: 30px;
+    color: #FFF;
+    padding: 0px;
+    margin: 0px;
+    line-height: 30px;
+    overflow: auto;
+    text-align: center;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #F07800;
+}
+
+#line2px {
+    height: 2px;
+    width: 1000px;
+    margin: 0 auto;
+    background: #F07800;
+}
+
+#body {
+    width: 1000px;
+    height: 600px;
+}
+
+#body_left {
+    float: left;
+    width: 198px;
+    height: 780px;
+    margin-top: 9px;
+    margin-left: 10px;
+    border: 1px #CCC solid;
+    /*background-image:url(../img/personal_left_bg.gif);*/
+}
+
+#body_right {
+    float: right;
+    width: 770px;
+    height: 780px;
+    margin: 9px;
+    border: 1px #CCC solid;
+}
+
+#body_right_son1 {
+    margin: -6px;
+    padding: 0px;
+    width: 768px;
+    height: 578px;
+    float: right;
+}
+
+#body_top_bg {
+    background: #EEE;
+    width: 770px;
+    height: 34px;
+    margin: 0px;
+    border-bottom: 1px #CCC solid;
+}
+
+#body_top_txt {
+    width: 80px;
+    height: 34px;
+    line-height: 34px;
+    overflow: auto;
+    text-align: center;
+}
+
+#body_body {
+    width: 700px;
+    height: 500px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+#body_body_left {
+    float: left;
+    height: 210px;
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+#body_body_left_img {
+    height: 30px;
+    width: 80px;
+}
+
+#body_body_right {
+    width: 200px;
+    height: 210px;
+    margin-right: 400px;
+    margin-top: 5px;
+    float: right;
+}
+
+#save {
+    height: 20px;
+    width: 125px;
+    margin-top: 5px;
+}
+
+#save_left {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-left: 5px;
+}
+
+#save_right {
+    width: 100px;
+    height: 20px;
+    float: right;
+}
+
+#body_left a {
+    color: #000;
+}
+
+#body_left a:hover {
+    color: #9F0;
+}
+
+#find {
+    height: 20px;
+    width: 125px;
+    margin-top: 5px;
+}
+
+#find_left {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    float: left;
+}
+
+#find_right {
+    width: 100px;
+    height: 20px;
+    float: right;
+}
+
+#save img {
+    height: 12px;
+    width: 12px;
+}
+
+#find img {
+    height: 12px;
+    width: 12px;
+}
+
+#input {
+    height: 30px;
+    width: 210px;
+}
+
+#sex {
+    height: 30px;
+    line-height: 30px;
+    overflow: auto;
+    padding: 0px;
+    margin: 0px;
+    width: 210px;
+    font-size: 9px;
+}
+
+#sex input {
+    margin: 0px 5px;
+}
+
+#address {
+    height: 36px;
+    width: 210px;
+    line-height: 36px;
+    overflow: auto;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 10px;
+    font-size: 9px;
+}
+
+#address {
+    margin: 0px 5px;
+}
+
+#input input {
+    height: 20px;
+    width: 200px;
+    border: 1px #CCC solid;
+}
+
+#introduce textarea {
+    width: 450px;
+    height: 100px;
+    border: 1px #CCC solid;
+    margin-top: 10px;
+}
+
+#body_save {
+    width: 100px;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+#body_save input {
+    background-image: url(../img/save.gif);
+    border: none;
+    width: 65px;
+    height: 32px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+#body_note {
+    color: #F00;
+    font-size: 9px;
+    width: 200px;
+    height: 20px;
+    margin-top: 20px;
+}

@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+#total {
+    background-image: url(/frontend/application/style1/images/bg.gif);
+    height: 920px; /*网页高度设置*/
+}
+
+#whitebg {
+    width: 1020px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #FFF;
+    height: 625px; /*白色背景部分高度设置与网页高度差值不变*/
+    margin: 0 auto;
+}
+
+#space20 {
+    height: 20px;
+    width: 1000px;
+}
+
+#body {
+    width: 1000px;
+    height: 400px;
+    border: 1px #CCC solid;
+    margin: 0 auto;
+}
+
+#body_top {
+    height: 40px;
+    background-image: url(/frontend/application/style1/images/login_body_bg.gif);
+}
+
+#body1 {
+    width: 1000px;
+    height: 30px;
+    margin-top: 30px;
+}
+
+#body1_left {
+    float: left;
+    width: 540px;
+    font-size: 14px;
+    color: #F07800;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#body1_left_top {
+    width: 540px;
+    height: 180px;
+}
+
+#body1_left_left {
+    float: left;
+    width: 100px;
+    height: 180px;
+    text-align: center;
+    margin-left: 60px;
+}
+
+#left_name {
+    height: 60px;
+    width: 100px;
+}
+
+#body1_left_right {
+    float: left;
+    width: 340px;
+    height: 180px;
+}
+
+.input {
+    height: 50px;
+    width: 260px;
+}
+
+.input1 {
+    height: 49px;
+    width: 260px;
+}
+
+.input2 {
+    height: 50px;
+    width: 260px;
+}
+
+.input input {
+    width: 260px;
+    height: 30px;
+    margin: 0px 5px;
+}
+
+.input1 input {
+    width: 260px;
+    height: 30px;
+    margin: 10px 5px;
+}
+
+.input2 input {
+    width: 100px;
+    height: 30px;
+    margin: 20px 5px;
+}
+
+#choose {
+    height: 30px;
+    width: 450px;
+    font-size: 10px;
+    color: #999;
+    margin-left: 80px;
+}
+
+#login {
+    width: 450px;
+    height: 40px;
+    font-size: 10px;
+    color: #900;
+}
+
+#login input {
+    background-image: url(/frontend/application/style1/images/login_commit.gif);
+    height: 30px;
+    width: 60px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #900;
+    margin: 20px 100px;
+}
+
+#body1_center {
+    float: left;
+    width: 60px;
+    margin-top: 5px;
+}
+
+#body1_right {
+    float: right;
+    width: 400px;
+    height: 300px;
+    line-height: 300px;
+    overflow: auto;
+    font-size: 12px;
+    color: #000;
+}
+
+#body1_right_left {
+    width: 100px;
+    height: 300px;
+    float: left;
+}
+
+#body1_right_register {
+    background-image: url(/frontend/application/style1/images/login_register.gif);
+    height: 40px;
+    width: 100px;
+    line-height: 40px;
+    overflow: auto;
+    text-align: center;
+    float: right;
+    margin-right: 180px;
+    margin-top: 130px;
+}
+
+#body1_right_register a {
+    font-size: 16px;
+    color: #FFF;
+    font-weight: bold;
+
+}

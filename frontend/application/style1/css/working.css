@@ -1,0 +1,380 @@
+@charset "utf-8";
+/* CSS Document */
+#body .orange a {
+    color: #F60;
+}
+
+a {
+    color: #F60;
+}
+
+a:hover {
+    color: #9F0;
+}
+
+#total {
+    background-image: url(/frontend/application/style1/images/bg.gif);
+    overflow: hidden;
+}
+
+#whitebg {
+    width: 1020px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #FFF;
+    margin: 0 auto;
+}
+
+#body_left_up_left1 {
+    background-image: url(/frontend/application/style1/images/bg_01.gif);
+    width: 280px;
+    height: 30px;
+    line-height: 30px;
+    overflow: auto;
+}
+
+#body_left_up_left1 b {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #900;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#space10 {
+    height: 10px;
+}
+
+#star {
+    height: 40px;
+    width: 280px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#star_left {
+    float: left;
+    height: 33px;
+    width: 33px;
+    background: #F00;
+}
+
+#star_left img {
+    height: 30px;
+    width: 30px;
+    margin: 0 auto;
+    margin-top: 1.5px;
+}
+
+#star_right {
+    float: right;
+    width: 230px;
+    height: 33px;
+}
+
+#star_right ul {
+    list-style: none;
+    width: 230px;
+    height: 33px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#star_right ul li {
+    width: 230px;
+}
+
+.star_txt a {
+    height: 16px;
+    width: 230px;
+    font-size: 12px;
+    color: #666;
+}
+
+.star_txt a:hover {
+    color: #9F0;
+}
+
+.star_date {
+    margin-left: 100px;
+    font-size: 12px;
+    color: #666;
+    margin-top: 5px;
+}
+
+#star_right ul li img {
+    margin-top: 5px;
+}
+
+.b {
+    font-size: 12px;
+    font-weight: bold;
+    float: left;
+    color: #F30;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.b_right {
+    font-size: 12px;
+    float: right;
+    color: #999;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+
+#start1 {
+    height: 20px;
+    width: 280px;
+}
+
+.red {
+    margin-left: 10px;
+}
+
+.more {
+    margin: 0 auto;
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+#space1 {
+    height: 5px;
+}
+
+#body {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+#body_ul {
+    width: 1000px;
+    border: 1px #CCC solid;
+    overflow: hidden;
+}
+
+#body ul {
+    list-style: none;
+    overflow: hidden;
+    width:100%;
+    padding:0px 20px;
+    margin:5px auto;
+}
+
+#body ul li {
+    float: left;
+    font-size: 12px;
+}
+
+#body_ul ul li {
+    font-weight: bold;
+}
+
+#body ul li a {
+    color: #333;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0 10px;
+}
+
+#body ul li a:hover {
+    color: #0F0;
+}
+
+#line {
+    width: 980px;
+    margin: 0 auto;
+    border-bottom: 1px #CCC solid;
+}
+
+#navigation1 {
+    height: 30px;
+    width: 1000px;
+    border: 1px #CCC solid;
+}
+
+#navigation1 ul {
+    height: 30px;
+    width: 1000px;
+    margin: 0px 5px;
+    padding: 0px;
+}
+
+.line {
+    height: 30px;
+    width: 100px;
+    border-right: 1px #CCC solid;
+}
+
+#body_border {
+    float: left;
+    width: 700px;
+
+}
+
+#body_border_top {
+    height: 30px;
+    background: #E0E0E0;
+    border-bottom: 1px #CCC solid;
+}
+
+#body_border ul {
+    height: 30px;
+    width: 700px;
+    padding: 0px;
+    margin: 0px;
+    line-height: 30px;
+    overflow: auto;
+    text-align: center;
+}
+
+#body_border li {
+    width: 140px;
+}
+
+#body_border_top li {
+    font-weight: bold;
+}
+
+#body_border_txt {
+    height: 670px;
+    border: 1px #CCC solid;
+    overflow: hidden;
+}
+
+#body_border_txt ul {
+    height: 30px;
+    width: 700px;
+}
+
+#body_right {
+    float: right;
+    width: 290px;
+}
+
+#phone {
+    height: 81px;
+    border: 1px #CCC solid;
+    width: 290px;
+}
+
+#phone_left {
+    float: left;
+    width: 104px;
+    height: 78px;
+}
+
+#phone_right_up {
+    float: right;
+    width: 180px;
+    height: 36px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+    padding: 0px;
+    line-height: 35px;
+
+}
+
+#phone_right_down {
+    float: right;
+    width: 150px;
+    height: 36px;
+    line-height: 30px;
+    overflow: auto;
+    background-image: url(/frontend/application/style1/images/phone_pic_bg.jpg);
+    background-repeat: no-repeat;
+}
+
+#phone_right_down a {
+    color: #000;
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+#space2 {
+    height: 5px;
+    width: 290px;
+}
+
+#hot {
+    width: 290px;
+    height: 470px;
+    border: 1px #CCC solid;
+}
+
+#hot_title {
+    margin: 0 auto;
+    height: 30px;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+    overflow: auto;
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 1px #CCC solid;
+}
+
+#hot_img {
+    float: left;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+
+#hot_img img {
+    height: 100px;
+    width: 100px;
+}
+
+#hot_explain {
+    float: right;
+    height: 80px;
+    width: 150px;
+    margin: 5px;
+    font-size: 12px;
+    color: #999;
+}
+
+#hot_explain p {
+    width: 150px;
+    height: 80px;
+}
+
+#hot_more {
+    float: right;
+    height: 20px;
+    width: 150px;
+    font-size: 12px;
+    color: #0F0;
+    text-align: right;
+    margin-right: 10px;
+}
+
+#hot_more a {
+    color: #0F0;
+}
+
+#hot_more a:hover {
+    color: #F00;
+}
+
+/*热门推荐结束*/
+
+#advertise {
+    width: 290px;
+    height: 100px;
+    border: 1px #CCC solid;
+}
+
+#advertise img {
+    width: 290px;
+    height: 100px;
+}
+		 

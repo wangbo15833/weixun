@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+#total {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+#top {
+    width: 1200px;
+    height: 80px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    background-image: url(../img/shop_on_bg.gif);
+}
+
+#top_left {
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 300px;
+    height: 60px;
+}
+
+#top_left h1 {
+    font-size: 24px;
+    font-weight: bold;
+    width: 300px;
+    height: 60px;
+    line-height: 60px;
+    overflow: auto;
+    margin: 0px;
+    padding: 0px;
+    color: #FFF;
+}
+
+#top_right {
+    float: right;
+    margin-top: 40px;
+    margin-right: 30px;
+    width: 150px;
+    height: 20px;
+}
+
+/*顶部结束*/
+
+#body {
+    width: 1200px;
+    height: 800px;
+}
+
+#body_left {
+    float: left;
+    width: 200px;
+    height: 800px;
+    border-right: 1px #CCC solid;
+}
+
+#body_left_top {
+    height: 20px;
+    width: 200px;
+    background: #E7E7E7;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 20px;
+    overflow: auto;
+    color: #402C09;
+}
+
+#body_right {
+    float: right;
+    width: 999px;
+    height: 800px;
+}
+
+#ttree a {
+    color: #000;
+}
+
+#ttree a:hover {
+    color: #9F0;
+}
+
+#bottom {
+    width: 1200px;
+    height: 80px;
+    line-height: 40px;
+    overflow: auto;
+    margin: 0px;
+    padding: 0px;
+    background: #EBEBEB;
+    color: #000;
+    font-size: 9px;
+    text-align: center;
+}

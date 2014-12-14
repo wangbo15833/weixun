@@ -1,0 +1,292 @@
+@charset "utf-8";
+/* CSS Document */
+#body_right {
+    float: right;
+    width: 999px;
+    height: 792px;
+    margin-top: -9px;
+    margin-right: -8px;
+}
+
+#body_right_top {
+    width: 999px;
+    height: 70px;
+    background: #EEE;
+    color: #F07800;
+
+}
+
+#body_right_top_title {
+    height: 40px;
+    line-height: 30px;
+    overflow: auto;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0px;
+    marging: 0px;
+}
+
+#body_right_top_a {
+    font-size: 12px;
+    height: 30px;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+#body_right_top_a a {
+    color: #F07800;
+}
+
+#body_right_top_a a:hover {
+    color: #9F0;
+}
+
+/*主体右侧顶部结束*/
+
+/*用div实现圆滑边框*/
+#body_table {
+    width: 850px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background: #EBEBEB;
+}
+
+#border_line {
+    border-left: 1px #CCC solid;
+    border-right: 1px #CCC solid;
+    width: 850px;
+    height: 500px;
+
+}
+
+.b {
+    height: 1px;
+    overflow: hidden;
+    border-left: 1px #CCC solid;
+    border-right: 1px #CCC solid;
+}
+
+.b_little {
+    height: 1px;
+    overflow: hidden;
+    border-left: 1px #CCC solid;
+    border-right: 1px #CCC solid;
+    border-bottom: 1px #CCC solid;
+}
+
+/*用div实现圆滑边框结束*/
+#shopping {
+    font-size: 14px;
+    color: #000;
+    width: 850px;
+    height: 30px;
+    line-height: 30px;
+    overflow: auto;
+    font-weight: bold;
+    border-bottom: 1px #CCC solid;
+}
+
+.shopping {
+    margin-left: 20px;
+    width: 100px;
+    margin-left: 30px;
+}
+
+#shopping_table {
+    width: 830px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background: #FFF;
+}
+
+#border_line1 {
+    border-left: 1px #CCC solid;
+    border-right: 1px #CCC solid;
+    width: 830px;
+    height: 380px;
+}
+
+.s {
+    height: 1px;
+    overflow: hidden;
+    border-left: 1px #CCC solid;
+    border-right: 1px #CCC solid;
+}
+
+.s_little {
+    height: 1px;
+    overflow: hidden;
+    border-left: 1px #CCC solid;
+    border-right: 1px #CCC solid;
+    border-bottom: 1px #CCC solid;
+}
+
+#table_title {
+    width: 830px;
+    border-bottom: 1px #CCC solid;
+    height: 25px;
+    background: #E1E1E1;
+}
+
+#table_title ul {
+    list-style: none;
+    height: 25px;
+    width: 900px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#table_title li {
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    overflow: auto;
+    text-align: center;
+    font-size: 10px;
+}
+
+#table_body ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#changpage a {
+    color: #F60;
+}
+
+#changpage a:hover {
+    color: #9F0;
+}
+
+.w1 {
+    width: 70px;
+}
+
+.w2 {
+    width: 200px;
+}
+
+.w3 {
+    width: 280px;
+}
+
+.w4 {
+    width: 100px;
+}
+
+.w6 {
+    width: 80px;
+}
+
+/*小表格标题部分结束*/
+#table_body {
+    width: 830px;
+    height: 310px;
+    font-size: 10px;
+    color: #999;
+}
+
+#table_left {
+    float: left;
+    width: 269px;
+    height: 31px;
+}
+
+#left_left {
+    float: left;
+    width: 68px;
+    height: 30px;
+    text-align: center;
+    border-bottom: 1px #CCC solid;
+    border-right: 1px #CCC solid;
+}
+
+#left_left img {
+    width: 24px;
+    height: 25px;
+    margin: 2.5px 22px;
+}
+
+#left_right {
+    float: right;
+    width: 199px;
+    height: 30px;
+    height: 30px;
+    line-height: 30px;
+    overflow: auto;
+    text-align: center;
+    border-right: 1px #CCC solid;
+    border-bottom: 1px #CCC solid;
+}
+
+#table_center {
+    float: left;
+    width: 379px;
+    height: 31px;
+}
+
+#center_left {
+    float: left;
+    width: 278px;
+    height: 30px;
+    line-height: 30px;
+    overflow: auto;
+    text-align: center;
+    border-bottom: 1px #CCC solid;
+    border-right: 1px #CCC solid;
+}
+
+#center_right {
+    float: right;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    overflow: auto;
+    text-align: center;
+    border-bottom: 1px #CCC solid;
+}
+
+#table_right {
+    float: right;
+    width: 180px;
+    height: 31px;
+}
+
+#right_left {
+    width: 99px;
+    height: 30px;
+    float: left;
+    line-height: 30px;
+    overflow: auto;
+    text-align: center;
+    border-bottom: 1px #CCC solid;
+    border-right: 1px #CCC solid;
+}
+
+#right_right {
+    width: 80px;
+    height: 30px;
+    float: right;
+    border-bottom: 1px #CCC solid;
+}
+
+#right_right_left {
+    width: 40px;
+    height: 30px;
+    float: left;
+}
+
+#right_right_right {
+    width: 40px;
+    height: 30px;
+    float: right;
+}
+
+#right_right img {
+    margin: 3.5px 2px;
+    width: 36px;
+    height: 23px;
+}
+				

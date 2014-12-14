@@ -1,0 +1,306 @@
+@charset "utf-8";
+/* CSS Document */
+
+#total {
+    background-image: url(../img/bg.gif);
+    height: 1120px; /*网页高度设置*/
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#whitebg {
+    width: 1020px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #FFF;
+    height: 1025px; /*白色背景部分高度设置与网页高度差值不变*/
+    margin: 0 auto;
+}
+
+#space20 {
+    height: 20px;
+    width: 1000px;
+}
+
+#herf {
+    width: 1000px;
+    height: 20px;
+    line-height: 20px;
+    overflow: auto;
+    font-size: 10px;
+    margin: 0 auto;
+    color: #FF8000;
+
+}
+
+#herf a {
+    color: #FF8000;
+    margin: 5px 10px;
+}
+
+#herf a:hover {
+    color: #9F0;
+}
+
+#i_personal {
+    width: 100px;
+    height: 30px;
+    color: #FFF;
+    padding: 0px;
+    margin: 0px;
+    line-height: 30px;
+    overflow: auto;
+    text-align: center;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #F07800;
+}
+
+#line2px {
+    height: 2px;
+    width: 1000px;
+    margin: 0 auto;
+    background: #F07800;
+}
+
+#body {
+    width: 1000px;
+    height: 600px;
+}
+
+#body_left {
+    float: left;
+    width: 200px;
+    height: 800px;
+    background-image: url(../img/personal_left_bg.gif);
+}
+
+#body_right {
+    float: right;
+    width: 780px;
+    height: 780px;
+    margin: 9px;
+    border: 1px #CCC solid;
+}
+
+#body_right_son2 {
+    margin: -6px;
+    padding: 0px;
+    width: 768px;
+    height: 578px;
+    float: right;
+}
+
+#body_top_bg {
+    background: #EEE;
+    width: 780px;
+    height: 34px;
+    margin: 0px;
+    border-bottom: 1px #CCC solid;
+}
+
+#body_top_txt {
+    width: 80px;
+    height: 34px;
+    line-height: 34px;
+    overflow: auto;
+    text-align: center;
+}
+
+#body_body {
+    width: 700px;
+    height: 700px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+#head {
+    font-size: 14px;
+    line-height: 30px;
+    overflow: auto;
+    padding: 0px;
+    margin: 0px;
+    width: 650px;
+    height: 30px;
+}
+
+#head_t {
+    width: 650px;
+    height: 200px;
+    font-size: 10px;
+    color: #333;
+}
+
+#head_left {
+    float: left;
+    width: 265px;
+    height: 200px;
+}
+
+#head_img {
+    width: 265px;
+    height: 150px;
+}
+
+#head_maximg {
+    float: left;
+    margin-top: 20px;
+    height: 120px;
+    width: 120px;
+    border: 1px #CCC solid;
+}
+
+#head_minimg {
+    float: right;
+    margin-top: 90px;
+    height: 48px;
+    width: 48px;
+    margin-right: 25px;
+    border: 1px #CCC solid;
+}
+
+#head_txt {
+    width: 265px;
+    height: 20px;
+}
+
+#head_maxtxt {
+    width: 120px;
+    height: 20px;
+    float: left;
+    text-align: center;
+}
+
+#head_mintxt {
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    float: right;
+}
+
+#head_right {
+    float: right;
+    width: 340px;
+    height: 80px;
+    margin-top: 50px;
+}
+
+#head_file {
+    width: 340px;
+    height: 40px;
+}
+
+/*头像部分结束*/
+
+#detail {
+    width: 650px;
+    height: 320px;
+}
+
+#detail_left {
+    width: 100px;
+    height: 300px;
+    float: left;
+}
+
+#detail_txt {
+    width: 60px;
+    height: 30px;
+}
+
+#detail_right {
+    width: 525px;
+    height: 320px;
+    float: right;
+    margin-right: 20px;
+}
+
+#h_and_w {
+    width: 500px;
+    height: 30px;
+}
+
+#h {
+    height: 27px;
+    width: 150px;
+    float: left;
+    margin-top: 3px;
+}
+
+#w {
+    float: right;
+    width: 300px;
+    height: 30px;
+}
+
+#w_left {
+    float: left;
+    width: 100px;
+    height: 30px;
+    margin-left: 50px;
+}
+
+#w_right {
+    float: right;
+    height: 27px;
+    width: 150px;
+    margin-top: 3px;
+}
+
+#marriage {
+    width: 400px;
+    height: 30px;
+    font-size: 9px;
+}
+
+#marriage input {
+    margin: 10px 10px 5px 15px;
+}
+
+#birthday {
+    height: 30px;
+    width: 400px;
+    margin-top: 5px;
+    font-size: 9px;
+}
+
+#QQ {
+    height: 30px;
+    width: 400px;
+    margin-top: 5px;
+}
+
+#education {
+    height: 30px;
+    width: 200px;
+    margin-top: 5px;
+}
+
+#body_save {
+    width: 100px;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 300px;
+}
+
+#body_save input {
+    background-image: url(../img/save.gif);
+    width: 65px;
+    height: 35px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+#body_note {
+    color: #F00;
+    font-size: 9px;
+    width: 200px;
+    height: 20px;
+    margin-top: 20px;
+}
+		   
+		   
+		   

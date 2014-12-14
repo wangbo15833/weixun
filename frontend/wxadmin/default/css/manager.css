@@ -1,0 +1,54 @@
+
+.shopTable{
+    border: 1px solid #95BCE2;
+    width:700px;
+    margin-top : 5px;
+    font-size: 12px;
+    font-family:"黑体";
+    color : #707070;
+}
+
+.shopTable th{
+    border-bottom: 1px solid #95BCE2;
+    margin: 0px;padding: 0px;   
+    font-family: "Courier New";
+    font-size:14px;
+    
+    color: #000000;
+}
+
+.shopTable tr{
+    text-align :center;
+    border-bottom: 1px solid #000000;
+}
+.shopTable td{
+     margin: 0px;
+}
+
+.shopTable a{
+    font-size: 12px;
+    font-family:"黑体";
+    color : #707070;
+}
+a:link { font-size: 10pt;  text-decoration: none;  }
+a:visited{ font-size: 10pt;  text-decoration: none;}
+a:hover {color: red;}
+.liTitle{
+    border-bottom: 1px solid #95BCE2;
+    margin: 0px;padding: 0px;  
+    margin-bottom:15px; 
+    font-family: "Courier New";
+    font-size: 14px;
+    
+}
+
+label {
+    width: 15em;
+}
+label.error {
+    float: none;
+    color: red;
+    padding-left: .5em;
+    vertical-align: top;
+}
+

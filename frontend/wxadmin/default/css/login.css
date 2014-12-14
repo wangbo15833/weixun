@@ -1,0 +1,38 @@
+/**------------login start-------------*/
+body{
+    width: 1000px;
+    height: auto;
+    min-width: 500px;
+}
+
+.loginDiv{
+    width: 500px;
+    height: 200px;
+    margin: 150px 50px 50px 480px;
+    border: 0px solid #0099FF;
+    text-align: center;
+    padding: 50px 50px 50px 50px;
+    background-color:#95BCE2;
+   
+}
+.loginDiv label{
+    width: 100px;
+}
+
+.loginDiv li{
+     list-style: none;
+     font-family: "黑体";
+     font-size:small;
+     margin: 5px 5px 5px 5px;
+}
+
+.loginDiv li #submit{
+    background-image: url('/weixun/frontend/wxadmin/default/images/login.gif');
+    width: 67px;
+    height: 23px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+

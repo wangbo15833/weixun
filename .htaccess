@@ -1,0 +1,3 @@
+#RewriteEngine on
+#RewriteCond $1 !^(index\.php|wxadmin\.php|captcha|frontendcore|UpLoadFile||robots\.txt)
+#RewriteRule ^(.*)$ /weixun/index.php/$1 [L]
